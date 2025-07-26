@@ -1,0 +1,10 @@
+const url=require('url');
+const parsedurl=url.parse('https://www.example.com/search?q=example');
+console.log("Hostname:",parsedurl.hostname);
+console.log("Path:",parsedurl.path);
+console.log("Port:",parsedurl.port);
+console.log("Protocol:",parsedurl.protocol);
+console.log("Pathname:",parsedurl.pathname);
+console.log("Full URL:",parsedurl.href);
+console.log("Query:",parsedurl.query);
+console.log("Hash:",parsedurl.hash);  
